@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+section {
+    display: flex;
+}
+
+section .liser {
+    height: 654px;
+    width: 40%;
+    background-color: rgb(19, 18, 18);
+}
+
+section .limen {
+    height: 654px;
+    width: 60%;
+    background: url(background.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .limen .letsbtn {
+    height: max-content;
+    color: silver;
+    font-size: 23PX;
+    text-align: center;
+
+}
+
+section .limen .letsbtn h1 strong {
+    color: white;
+}
+
+section .limen .letsbtn button {
+    width: 261px;
+    height: 33px;
+    background-color: unset;
+    color: silver;
+    margin-top: 14px;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.Username {
+    color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 15%;
+
+}
+
+#uc,
+#pw {
+    width: 373px;
+    margin-top: 1%;
+    height: 24px;
+    background-color: unset;
+
+}
+
+.Password {
+    color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15%;
+
+}
+
+.Pswrd,
+.usr {
+    font-size: 12px;
+
+}
+
+.si button {
+    width: 373px;
+    margin-top: 1%;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 15%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.frgt {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 12px;
+}
+
+.Google {
+    color: silver;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Or {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.createbtn .btn {
+    width: 200px;
+    margin-top: 1%;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 31%;
+    background-color: unset;
+    color: silver;
+    font-weight: 700;
+}
+
+.copy .cop {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 12px;
+
+}
+.link a{
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-right: 5px;
+    font-size: 12px;
+
+}
